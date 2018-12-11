@@ -46,14 +46,13 @@ public class DetailsFragment extends Fragment implements View.OnClickListener
         }
     }
 
-    //@Override
-    public View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        View view=inflater.inflate(R.layout.fragment_details,container,false);
         //View layout=view.findViewById(R.id.fragment_details_layout);
         //TextView textView=view.findViewById(R.id.fragment_details_overview);
         //need to find out what to do with this "layout" and "textView"...
-        return view;
+        return inflater.inflate(R.layout.fragment_details,container,false);
     }
 
     @Override
