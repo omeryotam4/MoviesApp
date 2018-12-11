@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/iw_back"
+            android:contentDescription="background" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <ImageView
+                android:id="@+id/main_thumbnail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/iw_main"
+                tools:ignore="RtlHardcoded"
+                android:contentDescription="main pic" />
+
+            <TextView
+                android:id="@+id/movie_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/IW_name"
+                android:textSize="25sp"
+                android:textColor="@color/movie_name_color"
+                android:layout_toRightOf="@+id/main_thumbnail"
+                android:layout_toEndOf="@+id/main_thumbnail" />
+
+            <TextView
+                android:id="@+id/released"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="released:"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:layout_below="@+id/movie_name"
+                android:layout_toRightOf="@+id/main_thumbnail"
+                android:textSize="16sp"
+                android:layout_toEndOf="@+id/main_thumbnail" />
+
+            <TextView
+                android:id="@+id/details_release_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="01-01-2018"
+                android:layout_below="@+id/movie_name"
+                android:layout_toRightOf="@+id/released"
+                android:textSize="16sp"
+                android:layout_toEndOf="@+id/released" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/trailer_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="movie trailer"
+                android:layout_toRightOf="@+id/main_thumbnail"
+                android:layout_below="@+id/released"
+                android:textSize="16sp"
+                android:layout_toEndOf="@+id/main_thumbnail" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:paddingStart="15dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="overview:"
+            android:paddingLeft="15dp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/details_overview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="@string/IW_details"/>
+
+    </LinearLayout>
+</ScrollView>

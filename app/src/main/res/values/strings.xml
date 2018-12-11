@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Movies App</string>
+
+    <string name="IW_details">The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.</string>
+    <string name="BP_details">After the death of his father, Prince T\'Challa ascends to the throne of the small African country of Wakanda. T\'Challa is also Black Panther, superhero. Now not only must he govern his country but defeat a dangerous adversary.</string>
+    <string name="DP2_details">Foul-mouthed mutant mercenary Wade Wilson (AKA. Deadpool), brings together a team of fellow mutant rogues to protect a young boy with supernatural abilities from the brutal, time-traveling cyborg, Cable.</string>
+    <string name="GOTG_details">A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.</string>
+    <string name="HTTYD3_details">As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless\' discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup\'s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.</string>
+    <string name="IS_details">A team of explorers travel through a wormhole in space in an attempt to ensure humanity\'s survival.</string>
+    <string name="JW_details">When the island\'s dormant volcano begins roaring to life, Owen and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level event.</string>
+    <string name="O8_details">Debbie Ocean gathers an all-female crew to attempt an impossible heist at New York City\'s yearly Met Gala.</string>
+    <string name="TFP_details">America\'s third political party, the New Founding Fathers of America, comes to power and conducts an experiment: no laws for 12 hours on Staten Island. No one has to stay on the island, but $5,000 is given to anyone who does.</string>
+    <string name="TM_details">After escaping an attack by what he claims was a 70-foot shark, Jonas Taylor must confront his fears to save those trapped in a sunken submersible.</string>
+    <string name="TR_details">Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.</string>
+
+    <string name="IW_name">Avengers: Infinity War</string>
+    <string name="BP_name">Black Panther</string>
+    <string name="DP2_name">Deadpool 2</string>
+    <string name="GOTG_name">Guardians of the Galaxy</string>
+    <string name="HTTYD3_name">How to Train Your Dragon: The Hidden World</string>
+    <string name="IS_name">Interstellar</string>
+    <string name="JW_name">Jurassic World: Fallen Kingdom</string>
+    <string name="O8_name">Ocean\'s Eight</string>
+    <string name="TFP_name">The First Purge</string>
+    <string name="TM_name">The Meg</string>
+    <string name="TR_name">Thor: Ragnarok</string>
+
+    <string name="IW_url">https://www.youtube.com/watch?v=6ZfuNTqbHE8</string>
+</resources>
