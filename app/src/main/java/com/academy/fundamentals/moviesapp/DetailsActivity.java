@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 
 public class DetailsActivity extends AppCompatActivity
 {
-    private static final String FRAGMENT_TAG = "details_fragment";
+    //private static final String FRAGMENT_TAG = "details_fragment";
     public static final String EXTRA_ITEM_POSITION = "init-position-data";
     private DetailsPagerAdapter pagerAdapter;
     private ViewPager viewPager;
@@ -19,7 +19,7 @@ public class DetailsActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
-        DetailsFragment detailsFragment=new DetailsFragment();
+        //DetailsFragment detailsFragment=new DetailsFragment();
 
         pagerAdapter= new DetailsPagerAdapter(getSupportFragmentManager());
 
@@ -29,7 +29,7 @@ public class DetailsActivity extends AppCompatActivity
         int startPosition = getIntent().getIntExtra(EXTRA_ITEM_POSITION, 0);
         viewPager.setCurrentItem(startPosition, false);
 
-        getSupportFragmentManager().beginTransaction().add(R.id.details_view_pager, detailsFragment,FRAGMENT_TAG).commit();
+        //getSupportFragmentManager().beginTransaction().add(R.id.details_view_pager, detailsFragment,FRAGMENT_TAG).commit();
 
     }
 
