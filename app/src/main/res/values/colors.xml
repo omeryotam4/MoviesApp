@@ -4,5 +4,6 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="movie_name_color">#8e44ad</color>
-    <color name="pager_background">#66547b</color>
+    <color name="pager_background">#bc9de1</color>
+    <color name="toolbar_color">#7d31b7</color>
 </resources>

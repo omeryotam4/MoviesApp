@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/asynctask_item"
+        android:title="Open Async Task Activity"
+        />
+
+    <item android:id="@+id/handler_item"
+        android:title="Open Thread Handler Activity"
+        />
+</menu>
