@@ -18,6 +18,10 @@ public class MoviesActivity extends AppCompatActivity implements OnMovieClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movies);
+
+        Toolbar toolbar=findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -25,8 +29,6 @@ public class MoviesActivity extends AppCompatActivity implements OnMovieClickLis
         //initRecyclerView();
         recyclerView.setAdapter(new MoviesViewAdapter(this,MoviesContentList.MOVIES, this));
 
-        Toolbar toolbar=findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
     }
 
     @Override
@@ -41,8 +43,7 @@ public class MoviesActivity extends AppCompatActivity implements OnMovieClickLis
         switch (item.getItemId()){
             case R.id.asynctask_item:
                 Toast.makeText(this,"this is async task!",Toast.LENGTH_SHORT).show();
-                Intent intent=new Intent(this,AsyncTaskActivity.class);
-                startActivity(intent);
+                startActivity(new Intent(this,AsyncTaskActivity.class));
                 return true;
             case R.id.handler_item:
                 Toast.makeText(this,"this is thread handler!",Toast.LENGTH_SHORT).show();
