@@ -47,6 +47,7 @@ public class MoviesActivity extends AppCompatActivity implements OnMovieClickLis
                 return true;
             case R.id.handler_item:
                 Toast.makeText(this,"this is thread handler!",Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this,ThreadsActivity.class));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

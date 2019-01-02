@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".DetailsActivity" />
         <activity android:name=".AsyncTaskActivity" />
+        <activity android:name=".ThreadsActivity"></activity>
     </application>
 
 </manifest>
